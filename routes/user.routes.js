@@ -2,6 +2,7 @@ const express = require("express");
 const {createUser, getUsers} = require("../controllers/user.controller")
 
 // router
+
 const router = express.Router();
 
 // apis
